@@ -25,5 +25,6 @@ public class Main {
         weatherData.registerObserver(new CurrentConditions());
         //设置天气并通知被观察者
         weatherData.setData(30);
+
     }
 }
